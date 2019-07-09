@@ -41,7 +41,9 @@ Optional #3: You can run 5.1 or other speaker/amplifier configuration i just dec
 Optional: add DNS name for your device on your router or with mDNS so you can access player without IP. Avahi can announce hostname into your network in case you have multicast enabled.
 
 # Power consumption
-My script contains commands for CPU underclock to 480MHz and LAN will be limited to 100Mb these could be commented out in case you need more power for other tasks. Also each player have its own shielded CPU core.
+My script contains commands for CPU underclock to 480MHz and LAN will be limited to 100Mb these could be commented out in case you need more power for other tasks. Also each player have its own shielded CPU core. 
+
+Power consumption for Orange Pi is around 300mA @ 5,30V at idle which is around 1.6W when all zones are used for play it can grow up to 2.5W.
 
 # Final images
 
